@@ -1,12 +1,14 @@
 ﻿using System;
-
-namespace unit03_jumper
+using System.Collections.Generic;
+namespace jumper
 {
     class Program
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
+        static int Main(string[] args)
+        {   
+            Director director = new Director();
+            director.PlayGame();
+            return 0;
         }
     }
 }
